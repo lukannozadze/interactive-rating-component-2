@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
 /*
 ! tailwindcss v3.2.1 | MIT License | https://tailwindcss.com
 */
@@ -414,7 +416,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -461,7 +463,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::-webkit-backdrop {
+::-webkit-backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -508,7 +510,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -555,49 +557,99 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.flex {
+.mt-\[24px\]{
+  margin-top: 24px;
+}
+
+.ml-\[24px\]{
+  margin-left: 24px;
+}
+
+.flex{
   display: flex;
 }
 
-.h-screen {
+.h-screen{
   height: 100vh;
 }
 
-.h-\[360px\] {
+.h-\[360px\]{
   height: 360px;
 }
 
-.w-\[327px\] {
+.h-\[40px\]{
+  height: 40px;
+}
+
+.w-\[327px\]{
   width: 327px;
 }
 
-.items-center {
+.w-\[40px\]{
+  width: 40px;
+}
+
+.items-center{
   align-items: center;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.rounded-\[15px\] {
+.rounded-\[15px\]{
   border-radius: 15px;
 }
 
-.bg-\[\#131518\] {
+.rounded-\[50\%\]{
+  border-radius: 50%;
+}
+
+.bg-\[\#131518\]{
   --tw-bg-opacity: 1;
   background-color: rgb(19 21 24 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-radial {
+.bg-\[\#262E38\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 46 56 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-radial{
   background-image: radial-gradient(var(--tw-gradient-stops));
 }
 
-.from-\[\#232A34\] {
+.from-\[\#232A34\]{
   --tw-gradient-from: #232A34;
   --tw-gradient-to: rgb(35 42 52 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.to-\[\#181E27\] {
+.to-\[\#181E27\]{
   --tw-gradient-to: #181E27;
+}
+
+.font-overpass{
+  font-family: Overpass;
+}
+
+.text-\[24px\]{
+  font-size: 24px;
+}
+
+.text-\[14px\]{
+  font-size: 14px;
+}
+
+.leading-\[30px\]{
+  line-height: 30px;
+}
+
+.leading-\[22px\]{
+  line-height: 22px;
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
