@@ -2,7 +2,7 @@ import React from "react";
 
 const Icon = () => {
   return (
-    <div className="w-[40px] h-[40px] bg-[#262E38] rounded-[50%] mt-[24px] ml-[24px] flex justify-center items-center">
+    <div className="w-[40px] h-[40px] bg-[#262E38] rounded-[50%]  ml-[24px] mt-[24px] flex justify-center items-center">
       <svg
         width="15"
         height="14"
