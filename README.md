@@ -1,6 +1,6 @@
 ###DOCUMENTATION###
 #Description#
-This is simple interactive rating component application
+This is simple interactive rating component application.
 
 #Tech Stack#
 React.js tailwindcss
