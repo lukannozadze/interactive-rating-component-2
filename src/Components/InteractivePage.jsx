@@ -4,17 +4,23 @@ import TextContent from "./TextContent";
 import Card from "../UI/Card";
 import Icon from "../UI/Icon";
 
-const InteractivePage = () => {
+const InteractivePage = (props) => {
+  const getBtnStatus = (status) => {
+    props.onGetBtnStatus(status);
+  };
+  const getValue = (value) => {
+    props.onGetValue(value);
+  };
   return (
     <Card>
       <Icon />
       <TextContent
-        className="ml-[24px] mr-[24px] mt-[16px] font-overpass text-white"
+        className="ml-[24px] mr-[24px] mt-[16px] font-overpass text-white md:ml-[32px] md:mt-[30px]"
         headerText="How did we do?"
         paragraphText="Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!"
       />
-      <MarkButtonList />
-      <SubmitButton />
+      <MarkButtonList onGetValue={getValue} />
+      <SubmitButton onGetBtnStatus={getBtnStatus} />
     </Card>
   );
 };
