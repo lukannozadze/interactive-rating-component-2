@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/interactive-rating-component/static/css/main.0d93da75.css",
+    "main.js": "/interactive-rating-component/static/js/main.e54d698f.js",
+    "static/media/phone.png": "/interactive-rating-component/static/media/phone.364fc0c272ea84a6201d.png",
+    "index.html": "/interactive-rating-component/index.html",
+    "main.0d93da75.css.map": "/interactive-rating-component/static/css/main.0d93da75.css.map",
+    "main.e54d698f.js.map": "/interactive-rating-component/static/js/main.e54d698f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d93da75.css",
+    "static/js/main.e54d698f.js"
+  ]
+}
