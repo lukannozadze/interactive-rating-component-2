@@ -1,8 +1,10 @@
-import React, { useState } from "react";
-
+import { useHistory } from "react-router-dom";
 const SubmitButton = (props) => {
+  const history = useHistory();
   const btnClickHandler = (e) => {
-    props.onGetBtnStatus();
+    if (props.mark !== "") {
+      history.push("/thanks-page");
+    }
   };
   return (
     <button

@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../UI/Card";
 import TextContent from "./TextContent";
 import phoneImgPath from "../images/phone.png";
+
 const ThanksPage = (props) => {
   return (
     <Card>

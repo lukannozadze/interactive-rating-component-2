@@ -20,7 +20,7 @@ const InteractivePage = (props) => {
         paragraphText="Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!"
       />
       <MarkButtonList onGetValue={getValue} />
-      <SubmitButton onGetBtnStatus={getBtnStatus} />
+      <SubmitButton onGetBtnStatus={getBtnStatus} mark={props.mark} />
     </Card>
   );
 };
