@@ -11,19 +11,13 @@ const App = () => {
 
   return (
     <Fragment>
-      <Route path="/" exact>
-        <div
-          id="interactive-container"
-          className="h-screen bg-[#131518] flex justify-center items-center"
-        >
+      <Route path="/interactive-rating-component-2">
+        <div className="h-screen bg-[#131518] flex justify-center items-center">
           <InteractivePage onGetValue={getValue} mark={markValue} />
         </div>
       </Route>
       <Route path="/thanks-page">
-        <div
-          id="thanks-container"
-          className="h-screen bg-[#131518] flex justify-center items-center"
-        >
+        <div className="h-screen bg-[#131518] flex justify-center items-center">
           <ThanksPage mark={markValue} />
         </div>
       </Route>
